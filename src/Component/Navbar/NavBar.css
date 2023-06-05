@@ -1,0 +1,25 @@
+.navbar-body {
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+.logo {
+    width: 100%;
+    height: 5rem;
+    /* background-color: aqua; */
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid .1px rgba(0, 0, 0, 0.105);
+}
+
+.active{
+    background: rgb(105, 24, 255);
+    background: linear-gradient(0deg, rgba(105, 24, 255, 1) 0%, rgba(152, 108, 255, 1) 100%);
+    color: #fff;
+    padding: .8rem;
+    margin: .8rem;
+    border-radius: 10px;
+}

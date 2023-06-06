@@ -10,7 +10,7 @@ const Default = () => {
     <div className="sidebar" >
       <NavBar />
     </div>
-    <div className="content">
+    <div className="content m-0">
       <Outlet/>
         {/* {auth ? <Outlet /> : <Navigate to={"/login"} />} */}
     </div>

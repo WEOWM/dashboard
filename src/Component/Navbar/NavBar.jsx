@@ -44,18 +44,18 @@ const NavBar = () => {
       icon: <TbMessageReport />,
       name: "Report",
       path: "/report",
-    },
-    {
-      icon: <FiSettings />,
-      name: "Settings",
-      path: "/settings",
-    },
-    {
-      icon: <LuLogOut />,
-      name: "Log Out",
-      path: "/log-out",
-    },
-  ];
+      },
+      {
+        icon: <FiSettings />,
+        name: "Settings",
+        path: "/settings",
+      },
+      {
+        icon: <LuLogOut />,
+        name: "Log Out",
+        path: "/log-out",
+      },
+    ];
 
   return (
     <div className="navbar-body">
@@ -88,7 +88,7 @@ const NavBar = () => {
               }}
             >
               <i className="p-0 ps-5 m-0 fs-5">{items.icon}</i>
-              <p className="p=0 m-0 ps-2 mt-1 ">{items.name}</p>
+              <p className="p-0 m-0 ps-2 mt-1 ">{items.name}</p>
             </li>
           </ul>
         );
